@@ -9,6 +9,7 @@
 
 import qrcode
 
-img = qrcode.make('艾莉丝努力练剑！秃秃，新的一周，继续加油吧！艾莉丝会一直支持你哒！')
+img = qrcode.make('艾莉丝努力练剑！')
+# img = qrcode.make('艾莉丝努力练剑！秃秃，新的一周，继续加油吧！艾莉丝会一直支持你哒！')
 img.save('qrcode.png')
 # no news is good news
